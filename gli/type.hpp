@@ -40,6 +40,7 @@ namespace gli
 	typedef ivec3 extent3d;
 	typedef ivec4 extent4d;
 
+#if 0
 	template <typename T, qualifier P>
 	inline vec<4, T, P> make_vec4(vec<1, T, P> const & v)
 	{
@@ -63,4 +64,5 @@ namespace gli
 	{
 		return v;
 	}
+#endif
 }//namespace gli
